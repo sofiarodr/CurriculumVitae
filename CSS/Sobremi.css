@@ -1,0 +1,86 @@
+body{
+    background-attachment:scroll;
+    background-image: url("../img/background.png");
+    font-family: 'Courier New', Courier, monospace;
+}
+
+
+nav ul{
+    background-color: none;
+    float: right;
+    font-size: 28px;
+    list-style-type: none;
+    margin-top: 100px;
+    margin-bottom: 20px;
+    margin-right: 100px;
+}
+
+nav li{
+    color:blueviolet;
+    float: left;  
+    padding-right: 30px;
+    margin: 5px;
+}
+
+li a:link{
+    text-decoration: none;
+    color:black;
+}
+
+li a:hover{
+    background-color:rgb(216, 191, 216);
+    padding: 5px;
+}
+
+li a:visited{
+    color:black;
+}
+
+#profilePicture{
+    margin-left: 100px;
+    margin-top: 20px;
+    width: 200px;
+}
+
+h1{
+    background-color:white;
+    font-size: 40px;
+    text-align: center;
+}
+
+/*************** Content ***************/
+
+p{
+    background-color:rgb(216, 191, 216);
+    color:black;
+    padding: 10px;
+    font-size: 20;
+    font-weight: lighter;
+}
+
+/********** FOOTER **********/
+
+.socialMedia{
+    background-color: white;
+    color: black;
+    font-size: 28px;
+    font-weight: 500;
+    padding: 10px;
+    margin: 0px;
+    padding: 10px;
+    text-align: center;
+}
+
+i{
+    padding: 10px;
+}
+
+footer a:hover{
+    background-color:rgb(216, 191, 216);
+    padding: 5px;
+    color: blueviolet;
+}
+
+footer a:visited{
+    color: blueviolet;
+}
